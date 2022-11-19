@@ -1,0 +1,5 @@
+com\apex\hikvision\controller\TestController.class
+com\apex\hikvision\configuration\HttpComponentsClientHttpRequestFactoryDigestAuth.class
+com\apex\hikvision\HikvisionApplication.class
+com\apex\hikvision\configuration\ClientConfig.class
+com\apex\hikvision\util\Credentials.class
