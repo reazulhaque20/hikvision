@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 public class ClientConfig {
     @Bean
     public RestTemplate restTemplate() {
-        HttpHost host = new HttpHost("localhost", 8080, "http");
+        HttpHost host = new HttpHost("localhost", 8899, "http");
         CloseableHttpClient client = HttpClientBuilder.create().
                 setDefaultCredentialsProvider(provider()).useSystemProperties().build();
         HttpComponentsClientHttpRequestFactory requestFactory =
